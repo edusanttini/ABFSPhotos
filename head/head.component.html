@@ -1,0 +1,27 @@
+<mat-toolbar class="header-toolbar">
+    <mat-toolbar-row class="header-toolbar-row">
+        <div class="header-title-subTitle">
+            <a style="text-decoration: none;"
+                href="http://localhost:4200/"
+                >
+                <h2 class="header-title">Adriana Santini</h2>
+                <h4 class="header-subTitle">Photographer</h4>
+            </a>
+        </div>
+        <span class="example-spacer"></span>
+        <div>
+            <button mat-mini-fab
+                [class.active]="toggleActive"
+                class="header-menu-btn"
+                (click)="callSideNav()"
+                >
+                <div class="menu-btn"
+                    [@hamburguerX]="!toggleActive ? 'hamburguer' : 'topX'"></div>
+                <div class="menu-btn"
+                    [@hamburguerX]="!toggleActive ? 'hamburguer' : 'hide'"></div>
+                <div class="menu-btn"
+                    [@hamburguerX]="!toggleActive ? 'hamburguer' : 'bottomX'"></div>
+            </button>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

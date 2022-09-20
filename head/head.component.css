@@ -1,0 +1,44 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+  
+.header-toolbar{
+    background-color: black;
+    height: 6%;
+    box-shadow: 1px 1px 15px 1px whitesmoke;
+}
+
+.header-title{
+    color: whitesmoke;
+    margin-bottom: -20px;
+}
+  
+.header-subTitle{
+    color: whitesmoke;
+}
+
+.header-title-subTitle{
+  padding-left: 5%;
+}
+
+.header-menu-btn{
+    margin-top: 5%;
+    background: none;
+    border: none;
+}
+
+.header-menu-btn:hover{
+    cursor: pointer;
+}
+
+.header-toolbar-row{
+    height: 100%;
+}
+
+.menu-btn {
+    width: 22px;
+    height: 2px;
+    background: white;
+    margin: 3px;
+    position: relative;
+}

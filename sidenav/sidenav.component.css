@@ -1,0 +1,27 @@
+.mat-drawer-sidenav {
+  margin-top: 10%;
+  padding-left: 10%;
+  width: 50%;
+}
+
+.sidenav-btns-div{
+  height: 50%;
+}
+
+.sidenav-btns{
+  padding-left: 2%;
+  background: none;
+  border: none;
+  color: whitesmoke;
+  width: 20%;
+}
+
+.sidenav-btns:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  color: black;
+}
+
+.sidenav-break-line-btn{
+  padding-top: 2%;
+}
